@@ -47,4 +47,3 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 .github/copilot-instructions.md
-scripts/demo-recording-steps.txt
