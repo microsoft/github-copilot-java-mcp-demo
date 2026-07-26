@@ -18,7 +18,7 @@
 
 > Want to build your first Spring Boot app in Visual Studio Code and understand how the pieces fit together?
 >
-> In this video, we’ll get the Java and Spring tooling ready, retrace the project setup with Spring Initializr, and explore a finished Todo application. Then we’ll build it, run it from the Spring Boot Dashboard, and verify its add, complete, and delete flow in the browser. Let’s jump right in.
+> In this video, we’ll get the Java and Spring tooling ready, retrace the project setup with Spring Initializr, and explore a finished Todo application. Then we’ll build it, run it from the Spring Boot Dashboard, and verify its add, complete, and delete flow in the browser, all driven from Visual Studio Code. Let’s jump right in.
 
 **Do:** End on “let's jump right in,” then cut to screen share.
 
@@ -43,7 +43,7 @@
 | 1.11 | Spring Boot Dashboard | Find **springboot-mcp-demo**, select its **Run** action, and wait for the app to show as running. **Do not narrate while it starts.** | "There's BUILD SUCCESS, so the code compiled and every test passed. Now, instead of running that Jar from a terminal, we'll use the Spring Boot Dashboard: we'll find `springboot-mcp-demo` in the list and select Run. Startup takes a few seconds, so we'll wait for it." | — |
 | 1.12 | Spring Boot Dashboard → browser | Point to the app's running state and port in the Dashboard, then select its **Open In Browser** action to open http://localhost:8080. | "The Dashboard now shows it running, with port 8080 beside it, and that's the embedded server the Spring Web starter brought in. We'll select Open In Browser, which launches that address, so we can drive the exact path we just traced through the code." | — |
 | 1.13 | Browser | Enter **Prepare the demo**, select **Add**, select that row's checkbox, then select its **Delete** button. | "Here's the page the controller rendered. We'll enter `Prepare the demo` and select Add, and that single click is the post to `/todos`, the redirect, and the re-rendered list. Now we'll select the checkbox on that row, which posts to the toggle endpoint and comes back checked. And we'll select Delete on the same row, which drops it from the map and re-renders without it. Add, complete, delete, all working end to end." | `Prepare the demo` |
-| 1.14 | Spring Boot Dashboard | Return to the Dashboard and select the app's **Stop** action. | "That's the whole loop confirmed in a real browser. We'll go back to the Spring Boot Dashboard and select Stop to shut the process down cleanly, and because this app keeps its todos in memory, stopping it clears them too. That's a Spring Boot app set up, built, run, and verified without leaving Visual Studio Code." | — |
+| 1.14 | Spring Boot Dashboard | Return to the Dashboard and select the app's **Stop** action. | "That's the whole loop confirmed in a real browser. We'll go back to the Spring Boot Dashboard and select Stop to shut the process down cleanly, and because this app keeps its todos in memory, stopping it clears them too. That's a Spring Boot app set up, built, run, and verified, all driven from Visual Studio Code." | — |
 
 **The Spring Initializr version picker:**
 
@@ -55,7 +55,7 @@
 
 ### Outro — Talking head (~25s)
 
-> And there it is. We set up the Java and Spring extensions, used Spring Initializr to show how the starter was configured, and explored the finished Todo app from model to controller. Then we built it, ran it from the Spring Boot Dashboard, and verified its core browser flow. That took us from a Java setup to a working Spring Boot application in Visual Studio Code. What would you build first with Java and Spring Boot? Let us know in the comments. Thanks for watching, and happy building.
+> And there it is. We set up the Java and Spring extensions, used Spring Initializr to show how the starter was configured, and explored the finished Todo app from model to controller. Then we built it, ran it from the Spring Boot Dashboard, and verified its core browser flow. That took us from a Java setup to a working Spring Boot application, all driven from Visual Studio Code. What would you build first with Java and Spring Boot? Let us know in the comments. Thanks for watching, and happy building.
 
 ---
 
@@ -65,7 +65,7 @@
 
 > Ever wondered what a Spring Boot app is actually doing between a browser click and the Java code that handles it?
 >
-> In this video, we’ll open a finished Spring Boot Todo app in Visual Studio Code and follow one add request through the Java debugger. We’ll inspect the request data, step from the controller into the service, and then use the Spring Boot Dashboard to check the running app’s endpoint mappings, health, and live memory. Let’s jump right in.
+> In this video, we’ll open a finished Spring Boot Todo app and follow one add request through the Java debugger. We’ll inspect the request data, step from the controller into the service, and then use the Spring Boot Dashboard to check the running app’s endpoint mappings, health, and live memory, all driven from Visual Studio Code. Let’s jump right in.
 
 **Do:** End on “let's jump right in,” then cut to screen share.
 
@@ -97,7 +97,7 @@
 
 ### Outro — Talking head (~25s)
 
-> And there it is. We followed a browser request into `TodoController`, inspected its title, stepped into `TodoService`, and watched the completed request return to the page. Then we used the Spring Boot Dashboard to confirm the app’s health and monitor its live heap. That is how Visual Studio Code lets you inspect a running Spring Boot app instead of guessing at what it is doing. What request would you trace first in your own application? Let us know in the comments. Thanks for watching, and happy building.
+> And there it is. We followed a browser request into `TodoController`, inspected its title, stepped into `TodoService`, and watched the completed request return to the page. Then we used the Spring Boot Dashboard to confirm the app’s health and monitor its live heap. That is how you inspect a running Spring Boot app instead of guessing at what it is doing, all driven from Visual Studio Code. What request would you trace first in your own application? Let us know in the comments. Thanks for watching, and happy building.
 
 ---
 
@@ -105,7 +105,7 @@
 
 ### Intro — Talking head (~25s)
 
-> Did you know GitHub Copilot can call your Spring Boot app’s Java operations directly from Visual Studio Code? In this video, we’ll use Spring AI and the Model Context Protocol, MCP for short, to turn parts of the app into tools Copilot can use. Then we’ll invoke those tools through Copilot and verify the result in the web page. Let’s jump right in.
+> Did you know GitHub Copilot can call your Spring Boot app’s Java operations directly? In this video, we’ll use Spring AI and the Model Context Protocol, MCP for short, to turn parts of the app into tools Copilot can use. Then we’ll invoke those tools through Copilot and verify the result in the web page, all driven from Visual Studio Code. Let’s jump right in.
 
 **Do:** End on “let's jump right in,” then cut to screen share.
 
@@ -137,7 +137,7 @@
 
 ### Outro — Talking head (~20s)
 
-> And there it is. We used Spring AI to expose Java operations as tools through the Model Context Protocol, connected those tools to GitHub Copilot in Visual Studio Code, and kept the web page and Copilot using the same service. After a browser refresh, a change made through Copilot appears in the web page. What part of your own Java application would you turn into a Copilot tool? Let us know in the comments. Thanks for watching, and happy building.
+> And there it is. We used Spring AI to expose Java operations as tools through the Model Context Protocol, connected those tools to GitHub Copilot, and kept the web page and Copilot using the same service. After a browser refresh, a change made through Copilot appears in the web page, all driven from Visual Studio Code. What part of your own Java application would you turn into a Copilot tool? Let us know in the comments. Thanks for watching, and happy building.
 
 ---
 
@@ -145,7 +145,7 @@
 
 ### Intro — Talking head (~25s)
 
-> Could your Java tests all pass while the page is still broken for a real user? In this video, we’ll connect Playwright to GitHub Copilot through the Model Context Protocol, MCP for short, and have Copilot verify a complete user journey in a real browser. That gives us confidence in the experience users actually see, not just the code behind it. Let’s jump right in.
+> Could your Java tests all pass while the page is still broken for a real user? In this video, we’ll connect Playwright to GitHub Copilot through the Model Context Protocol, MCP for short, and have Copilot verify a complete user journey in a real browser, all driven from Visual Studio Code. That gives us confidence in the experience users actually see, not just the code behind it. Let’s jump right in.
 
 **Do:** End on “let's jump right in,” then cut to screen share.
 
@@ -173,7 +173,7 @@
 
 ### Outro — Talking head (~20s)
 
-> And there it is. We connected Playwright to GitHub Copilot through the Model Context Protocol and had Copilot test the Spring Boot app in a real browser. Combined with the unit and integration tests, that gives us confidence in both the code and the experience a user actually sees. What browser workflow would you ask Copilot to test in your own app? Let us know in the comments. Thanks for watching, and happy building.
+> And there it is. We connected Playwright to GitHub Copilot through the Model Context Protocol and had Copilot test the Spring Boot app in a real browser, all driven from Visual Studio Code. Combined with the unit and integration tests, that gives us confidence in both the code and the experience a user actually sees. What browser workflow would you ask Copilot to test in your own app? Let us know in the comments. Thanks for watching, and happy building.
 
 ---
 
