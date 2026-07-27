@@ -145,7 +145,7 @@ Review the Playwright tool calls and final verification in Copilot Chat.
 [scripts/script.md](scripts/script.md) is a four-episode walkthrough that uses this project
 to demo **Java** development in **VS Code** with **GitHub Copilot**:
 
-1. Build and run a Spring Boot app with the Extension Pack for Java, Spring Initializr, Maven, and the Spring Boot Dashboard.
+1. Clone the project, install the Extension Pack for Java and the Spring Boot Extension Pack, then build and run the app with Maven and the Spring Boot Dashboard.
 2. Trace a browser request through the Java debugger, then inspect application health and live memory.
 3. Expose the endpoints to Copilot as **MCP** tools.
 4. Let Copilot test the UI end to end with **Playwright**.
