@@ -14,11 +14,9 @@
 
 ## Episode 1 of 4 — Build and run your first Spring Boot app
 
-### Intro — Talking head (~35s)
+### Intro — Talking head (~15s)
 
-> What does it actually take to get your first Spring Boot app running in Visual Studio Code? Two extensions, and the tooling does the rest.
->
-> In this video, we’ll start with a ready-made project, install the two extension packs that do the heavy lifting, and watch the project import itself. Then we’ll walk the code from model to controller, build it, run it straight from the Spring Boot Dashboard, and add, complete, and delete items live in the browser, all driven from Visual Studio Code. Let’s jump right in.
+> How long does it take to go from a folder of Java files to a running web app? Two extensions, and the tooling does the rest, all driven from Visual Studio Code. Let’s jump right in.
 
 **Do:** End on “let's jump right in,” then cut to screen share.
 
@@ -58,11 +56,9 @@
 
 ## Episode 2 of 4 — Debug and inspect a Spring Boot request
 
-### Intro — Talking head (~30s)
+### Intro — Talking head (~15s)
 
-> Ever wondered what a Spring Boot app is actually doing between a browser click and the Java code that handles it?
->
-> In this video, we’ll open a finished Spring Boot Todo app and catch one of those requests mid-flight, using the Java debugger to see the data it’s carrying. Then we’ll check the app’s health and watch its memory move in real time from the Spring Boot Dashboard, all driven from Visual Studio Code. Let’s jump right in.
+> What happens between a click in the browser and the Java code that handles it? We’ll stop a real request in mid-air and read what it’s carrying, all driven from Visual Studio Code. Let’s jump right in.
 
 **Do:** End on “let's jump right in,” then cut to screen share.
 
@@ -103,9 +99,9 @@
 
 ## Episode 3 of 4 — Expose your Java operations to Copilot with MCP
 
-### Intro — Talking head (~25s)
+### Intro — Talking head (~15s)
 
-> Did you know GitHub Copilot can call your Spring Boot app’s Java operations directly? In this video, we’ll use Spring AI and the Model Context Protocol, MCP for short, to turn parts of the app into tools Copilot can use. Then we’ll invoke those tools through Copilot and verify the result in the web page, all driven from Visual Studio Code. Let’s jump right in.
+> What if GitHub Copilot could call your own Java methods, not just write them? The Model Context Protocol turns them into tools Copilot can use, all driven from Visual Studio Code. Let’s jump right in.
 
 **Do:** End on “let's jump right in,” then cut to screen share.
 
@@ -143,9 +139,9 @@
 
 ## Episode 4 of 4 — Let Copilot test your Spring Boot app with Playwright
 
-### Intro — Talking head (~25s)
+### Intro — Talking head (~15s)
 
-> Could your Java tests all pass while the page is still broken for a real user? In this video, we’ll connect Playwright to GitHub Copilot through the Model Context Protocol, MCP for short, and have Copilot verify a complete user journey in a real browser, all driven from Visual Studio Code. That gives us confidence in the experience users actually see, not just the code behind it. Let’s jump right in.
+> Your tests are all green — but is the page actually working? We’ll give GitHub Copilot a real browser and let it find out, all driven from Visual Studio Code. Let’s jump right in.
 
 **Do:** End on “let's jump right in,” then cut to screen share.
 
