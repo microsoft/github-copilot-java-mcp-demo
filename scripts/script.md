@@ -127,7 +127,7 @@
 | 3.8 | Copilot Chat → browser | In Chat, point to **Email the stakeholders** in the structured `list_todos` result. Then select **Refresh** in the prepared http://localhost:8080 browser tab and point to the same title in the Todo list. | "The structured tool result contains `Email the stakeholders`, so the MCP call did what we asked. We'll switch to the browser tab at localhost:8080 and select Refresh. The same title appears there because the MCP tools and the web page's controller both delegate to one service and one in-memory repository. That shared result completes the test, so we'll shut both sides down." | — |
 | 3.9 | `.vscode/mcp.json` → Spring Boot Dashboard | Select **Stop** for `todo-mcp` in `.vscode/mcp.json`. Then select **Stop** for **springboot-mcp-demo** in the Dashboard and confirm it is no longer running. | "We'll return to `.vscode/mcp.json` and stop the `todo-mcp` connection first, while the server is still running. Then we'll return to the Spring Boot Dashboard and stop the Java application. Because its repository is in memory, stopping the process clears the Todo created during this demo. Both are stopped, and port 8080 is free." | — |
 
-**Proof it works — a todo created *through MCP* appears in the web page. The capture below carries extra items from an earlier run; a clean take shows the single new todo:**
+**Proof it works — the todo created *through MCP* appears in the web page, as the single new item a clean take produces:**
 
 ![Todo added via MCP](../docs/images/03-mcp-added-todo.png)
 
