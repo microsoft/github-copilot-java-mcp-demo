@@ -47,3 +47,4 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 .github/copilot-instructions.md
+scripts/script-narration.md
