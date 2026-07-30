@@ -140,7 +140,7 @@ Review the Playwright tool calls and final verification in Copilot Chat.
 
 ---
 
-## Demo recording script
+## Guided walkthrough
 
 [scripts/script.md](scripts/script.md) is a four-episode walkthrough that uses this project
 to demo **Java** development in **VS Code** with **GitHub Copilot**:
