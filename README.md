@@ -1,8 +1,5 @@
 # Spring Boot Todo — Web UI to MCP
 
-A small Spring Boot 4.1 / Java 25 Todo app that starts as a web app and exposes
-the same data to MCP clients such as GitHub Copilot
-
 ## Start here — the four-chapter training series
 
 **[Open the series →](docs/README.md)**
