@@ -142,13 +142,17 @@ Review the Playwright tool calls and final verification in Copilot Chat.
 
 ## Guided walkthrough
 
-[scripts/script.md](scripts/script.md) is a four-episode walkthrough that uses this project
-to demo **Java** development in **VS Code** with **GitHub Copilot**:
+[docs/](docs/README.md) holds a four-chapter learning series that uses this project to teach
+**Java** development in **VS Code** with **GitHub Copilot**. Each chapter stands on its own
+and explains the concepts alongside the steps:
 
-1. Clone the project, install the Extension Pack for Java and the Spring Boot Extension Pack, then build and run the app with Maven and the Spring Boot Dashboard.
-2. Trace a browser request through the Java debugger, then inspect application health and live memory.
-3. Expose the endpoints to Copilot as **MCP** tools.
-4. Let Copilot test the UI end to end with **Playwright**.
+1. [Build and Run Your First Spring Boot App](docs/1-build-and-run.md) — install the Extension Pack for Java and the Spring Boot Extension Pack, read the project structure, then build and run the app with Maven and the Spring Boot Dashboard.
+2. [Debug and Inspect a Spring Boot Request](docs/2-debug-and-inspect.md) — trace a browser request through the Java debugger, then inspect application health and live memory.
+3. [Expose Your Java Operations to Copilot with MCP](docs/3-expose-tools-with-mcp.md) — publish the service operations to Copilot as **MCP** tools.
+4. [Let Copilot Test Your App with Playwright](docs/4-test-with-playwright.md) — let Copilot test the UI end to end with **Playwright**.
+
+[scripts/script.md](scripts/script.md) covers the same four topics as a condensed
+step-by-step table, for anyone who wants the actions without the explanation.
 
 ---
 
