@@ -8,14 +8,39 @@ the same data to MCP clients such as GitHub Copilot:
 
 Both delegate to one `TodoService`.
 
+**Stack:** Java 25 · Spring Boot 4.1.0 · Spring AI 2.0.0 · Thymeleaf · Maven
+
+---
+
+## Start here — the four-chapter training series
+
+**[Open the series →](docs/README.md)**
+
+This repository exists to teach **Java** development in **VS Code** with **GitHub Copilot**.
+The series takes this sample from a cloned folder to an app Copilot can call and test.
+Each chapter stands on its own, explains the concepts alongside the steps, and ends with a
+working result.
+
+| # | Chapter | What you build |
+|---|---------|----------------|
+| 1 | [Build and Run Your First Spring Boot App](docs/1-build-and-run.md) | Install the two extension packs, read the project structure, then build and run the app with Maven and the Spring Boot Dashboard. |
+| 2 | [Debug and Inspect a Spring Boot Request](docs/2-debug-and-inspect.md) | Pause a live request in the Java debugger, step across the class boundary, then check health and live memory. |
+| 3 | [Expose Your Java Operations to Copilot with MCP](docs/3-expose-tools-with-mcp.md) | Publish the service operations as **MCP** tools and drive them from Copilot Chat. |
+| 4 | [Let Copilot Test Your App with Playwright](docs/4-test-with-playwright.md) | Hand Copilot browser tools and have it test the UI end to end with **Playwright**. |
+
+Prefer the actions without the explanation? [scripts/script.md](scripts/script.md) covers
+the same four topics as a condensed step-by-step table.
+
+---
+
+## How the sample fits together
+
 ```mermaid
 flowchart LR
     UI["Web UI<br/>Thymeleaf · /"] --> SVC
     MCP["MCP server<br/>/mcp"] --> SVC
     SVC["TodoService<br/>(shared logic)"]
 ```
-
-**Stack:** Java 25 · Spring Boot 4.1.0 · Spring AI 2.0.0 · Thymeleaf · Maven
 
 > [!IMPORTANT]
 > This repository is a local development and demonstration sample, not a
@@ -137,22 +162,6 @@ With the app running, ask Copilot Chat in Agent mode:
 > checked, then delete it and verify it is gone.
 
 Review the Playwright tool calls and final verification in Copilot Chat.
-
----
-
-## Guided walkthrough
-
-[docs/](docs/README.md) holds a four-chapter learning series that uses this project to teach
-**Java** development in **VS Code** with **GitHub Copilot**. Each chapter stands on its own
-and explains the concepts alongside the steps:
-
-1. [Build and Run Your First Spring Boot App](docs/1-build-and-run.md) — install the Extension Pack for Java and the Spring Boot Extension Pack, read the project structure, then build and run the app with Maven and the Spring Boot Dashboard.
-2. [Debug and Inspect a Spring Boot Request](docs/2-debug-and-inspect.md) — trace a browser request through the Java debugger, then inspect application health and live memory.
-3. [Expose Your Java Operations to Copilot with MCP](docs/3-expose-tools-with-mcp.md) — publish the service operations to Copilot as **MCP** tools.
-4. [Let Copilot Test Your App with Playwright](docs/4-test-with-playwright.md) — let Copilot test the UI end to end with **Playwright**.
-
-[scripts/script.md](scripts/script.md) covers the same four topics as a condensed
-step-by-step table, for anyone who wants the actions without the explanation.
 
 ---
 
