@@ -1,16 +1,7 @@
 # Spring Boot Todo — Web UI to MCP
 
 A small Spring Boot 4.1 / Java 25 Todo app that starts as a web app and exposes
-the same data to MCP clients such as GitHub Copilot:
-
-- a **Thymeleaf web UI** (`GET /`),
-- and **MCP tools** (`POST /mcp`) that GitHub Copilot can call.
-
-Both delegate to one `TodoService`.
-
-**Stack:** Java 25 · Spring Boot 4.1.0 · Spring AI 2.0.0 · Thymeleaf · Maven
-
----
+the same data to MCP clients such as GitHub Copilot
 
 ## Start here — the four-chapter training series
 
